@@ -1,0 +1,18 @@
+{
+  "name": "ong-conecta-vidas",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vp dev --host 127.0.0.1",
+    "api": "node server/index.js",
+    "build": "vp build"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "vite-plus": "latest"
+  }
+}
